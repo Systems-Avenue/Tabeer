@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tabeer_PP", "Tabeer_PP", "{DF0D0FAD-6026-448F-877F-FD77E636AA14}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tabeer_PP_Web", "Tabeer_PP_Web\Tabeer_PP_Web.csproj", "{7699273C-9611-4546-B4EC-7266BA621C89}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tabeer_PP_Application", "Tabeer_PP_Application\Tabeer_PP_Application.csproj", "{78DDA972-7B4A-4725-A0F3-E541A6D5F73B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7699273C-9611-4546-B4EC-7266BA621C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7699273C-9611-4546-B4EC-7266BA621C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7699273C-9611-4546-B4EC-7266BA621C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7699273C-9611-4546-B4EC-7266BA621C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DDA972-7B4A-4725-A0F3-E541A6D5F73B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DDA972-7B4A-4725-A0F3-E541A6D5F73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DDA972-7B4A-4725-A0F3-E541A6D5F73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DDA972-7B4A-4725-A0F3-E541A6D5F73B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7699273C-9611-4546-B4EC-7266BA621C89} = {DF0D0FAD-6026-448F-877F-FD77E636AA14}
+		{78DDA972-7B4A-4725-A0F3-E541A6D5F73B} = {DF0D0FAD-6026-448F-877F-FD77E636AA14}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4AFF53F4-A1E8-4FD6-B96F-D7E22A21546C}
+	EndGlobalSection
+EndGlobal
