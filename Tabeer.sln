@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tabeer_PP_Web", "Tabeer_PP_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tabeer_PP_Application", "Tabeer_PP_Application\Tabeer_PP_Application.csproj", "{78DDA972-7B4A-4725-A0F3-E541A6D5F73B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PaymentGateway", "PaymentGateway", "{E8B776F5-9D2C-4DCD-85B8-99610691A4DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutGateway", "CheckoutGateway\CheckoutGateway.csproj", "{2826C29D-5366-45C3-9FAA-79016BB2B8C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{78DDA972-7B4A-4725-A0F3-E541A6D5F73B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78DDA972-7B4A-4725-A0F3-E541A6D5F73B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78DDA972-7B4A-4725-A0F3-E541A6D5F73B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2826C29D-5366-45C3-9FAA-79016BB2B8C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2826C29D-5366-45C3-9FAA-79016BB2B8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2826C29D-5366-45C3-9FAA-79016BB2B8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2826C29D-5366-45C3-9FAA-79016BB2B8C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7699273C-9611-4546-B4EC-7266BA621C89} = {DF0D0FAD-6026-448F-877F-FD77E636AA14}
 		{78DDA972-7B4A-4725-A0F3-E541A6D5F73B} = {DF0D0FAD-6026-448F-877F-FD77E636AA14}
+		{2826C29D-5366-45C3-9FAA-79016BB2B8C7} = {E8B776F5-9D2C-4DCD-85B8-99610691A4DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4AFF53F4-A1E8-4FD6-B96F-D7E22A21546C}
